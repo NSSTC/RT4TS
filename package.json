@@ -1,0 +1,18 @@
+{
+  "name": "rt4ts",
+  "version": "0.1.0",
+  "author": "Marco Alka <me@marco-alka.de>",
+  "description": "Rust Traits for TypeScript",
+  "main": "Rust.js",
+  "types": "dist/Rust.d.ts",
+  "devDependencies": {
+    "typescript": "^3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NSSTC/RT4TS"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
